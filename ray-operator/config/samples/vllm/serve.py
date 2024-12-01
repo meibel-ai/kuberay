@@ -127,7 +127,6 @@ model = build_app(
         "tensor-parallel-size": os.environ['TENSOR_PARALLELISM'],
         "pipeline-parallel-size": os.environ['PIPELINE_PARALLELISM'],
         "max-model-len": os.environ['MAX_MODEL_LEN'],
-        "gpu-memory-utilization": os.environ['GPU_MEMORY_UTILIZATION'],
-        "quantization": os.environ['QUANTIZATION']
+        "gpu-memory-utilization": os.environ['GPU_MEMORY_UTILIZATION']
     }
 )
